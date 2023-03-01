@@ -1,4 +1,125 @@
 td, th {
 	border: 1px solid;
+  color:#ffffff;
+  padding: 1%;
   }
+
+.thead {
+  font-size: 1.5em;
+  border: none;
+  padding-bottom: 2%;
+  text-align: center;
+}
+
+.datafield {
+  border-right: none;
+}
+
+.imageBox {
+  border: none;
+}
+
+.emptyBox {
+  border: none;
+}
+
+h1 {
+  text-align: center;
+  background-image: conic-gradient(#974b84 30%, #ee4b2b 40%, #ee4b2b 70%, #00cb55 80%, #75d6d1);
+  color: transparent;
+  background-clip: text;
+  -webkit-background-clip: text;
+  transition: transform 1000ms ease;
+}
+
+body {
+  background-image: url(../images/background.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+h1:hover {
+  transform: scale(1.8);
+}
+
+table {
+  margin-left: auto;
+  margin-right: auto;
+  width: 95%;
+  height: 500px; 
+}
+
+img {
+  float: left;
+  width: 100%;
+  height: 150px;
+  object-fit: contain;
+  transition: transform 750ms ease;
+}
+
+img:hover{
+  transform: scale(1.15);
+}
+
+tr {
+  text-align: center;
+}
+
+.venus {
+  transition: 300ms ease;
+  border-left: none;
+  border-right: none;
+}
+
+.venus:hover {
+  background-color: #C3B091;
+  color: black;
+}
+
+.saturn {
+  transition: 300ms ease;
+  border-left: none;
+  border-right: none;
+}
+
+.saturn:hover {
+  background-color: #FFD700;
+  color: black;
+}
+
+.uranus {
+  transition: 300ms ease;
+  border-left: none;
+  border-right: none;
+}
+
+.uranus:hover {
+  background-color: #B0C4DE;
+  color: black;
+}
   
+.neptune {
+  transition: 300ms ease;
+  border-left: none;
+}
+
+.neptune:hover {
+  background-color: #3563c7;
+  color: black;
+}
+
+.venusImg {
+  border: none;
+}
+
+.saturnImg {
+  border: none;
+}
+
+.uranusImg {
+  border: none;
+}
+
+.neptuneImg {
+  border: none;
+}
