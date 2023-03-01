@@ -27,7 +27,6 @@ h1 {
   text-align: center;
   background-image: conic-gradient(#974b84 30%, #ee4b2b 40%, #ee4b2b 70%, #00cb55 80%, #75d6d1);
   color: black;
-  background-clip: text;
   transition: transform 1500ms ease;
 }
 
